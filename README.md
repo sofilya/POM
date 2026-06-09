@@ -1,2 +1,2 @@
 # POM
-AR glasses for neferious purpases 
+AR glasses for nefarious purpases 
