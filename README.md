@@ -1,2 +1,2 @@
-# POM
-AR glasses for nefarious purposes 
+# Project-POM
+AR glasses for all the nefarious purposes you may need 
