@@ -1,0 +1,3 @@
+#compile
+
+spc (file/s) user@10.0.0.208:/home/...
