@@ -38,4 +38,3 @@ Dedicated H.264 video decoder for decoding *encoded*??? video signals.
 
 ### Light engine
 
-
