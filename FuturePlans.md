@@ -4,6 +4,9 @@ Abbreviations used:
 - BT = Bluetooth
 - Pi = Raspberry Pi 5
 
+This file serves as a guideline/general base line for this project. It will contain basic information about *almost* every part of POM.
+For specific and more detailed information use the specific .md files of a component or software *(driver, app, OS etc.)*
+
 ## Box-side
 
 ### Raspberry Pi 5 2GB
@@ -11,12 +14,12 @@ Abbreviations used:
 The Raspberry Pi will act as the central brain for everything OS related ->
 - GUI rendition
 - I/O
-- Wireless communication with both 
+- Wireless communication with 
   - The glasses themselves
   - Other devices (BT, Wi-Fi)
   - *Wi-Fi connection*
 
-For this, custom made drivers will be required. Some (may already exist a viable alternative) to process the video output to then be wirelessly transmitted to glasses using custom made / custom modified BT drivers.
+For this, custom made drivers will be required. Some (a viable alternative may already exist) to process the video output to then be wirelessly transmitted to glasses using custom made / custom modified BT drivers.
 There will also have to be drivers for communicating other information than video such as change of power mode and possibly others.
 
 ## Glasses-side
@@ -30,11 +33,11 @@ For actual decoding of the video signals, there will be a dedicated H.264 decode
 
 ### S/D-RAM *(Static/Dynamic Random access Memory)*
 
-SRAM will "plnit" a very important function of temporarily storing and buffering frames alongside other bits of information. We are hoping to use **S**RAM *(static)* to avoid the need to constantly refresh the RAM with difficult clocks and other routines.
+SRAM will fulfill a very important function of temporarily storing and buffering frames alongside other bits of information. We are hoping to use **S**RAM *(static)* to avoid the need to constantly refresh the RAM with difficult clocks and other routines.
 
 ### H.264 video decoder
 
-Dedicated H.264 video decoder for decoding *encoded*??? video signals. 
+Dedicated H.264 video decoder for decoding encoded video signals. 
 
 ### Light engine
 
