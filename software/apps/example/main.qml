@@ -33,7 +33,7 @@ ApplicationWindow {
         }
     }
 
-    Rectangle { //make its own file so it can be a component and I can just paste them in automatically using a list or smh
+    App { //whenever you use App{} you only have to specify what is new, rest is copied from App.qml
         id: exampleapp
         width: 250
         height: 250

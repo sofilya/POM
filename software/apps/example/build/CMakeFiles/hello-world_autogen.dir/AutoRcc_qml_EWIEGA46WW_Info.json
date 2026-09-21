@@ -10,6 +10,7 @@
 	"INPUTS" : 
 	[
 		"/home/jakub/Documents/stuff/programovani/POM/software/apps/example/qt.png",
+		"/home/jakub/Documents/stuff/programovani/POM/software/apps/example/App.qml",
 		"/home/jakub/Documents/stuff/programovani/POM/software/apps/example/main.qml"
 	],
 	"LOCK_FILE" : "/home/jakub/Documents/stuff/programovani/POM/software/apps/example/build/CMakeFiles/hello-world_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
