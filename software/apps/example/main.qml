@@ -9,33 +9,102 @@ ApplicationWindow {
 
     width:  1280
     height: 720
-    color: "#5bedbc"
+    color: "#1a1a1a"
     visible: true
 
-    // Variable counter
-    property var counter: 0
+    Rectangle {
+        id: statusBar
+        width: parent.width
+        height: (parent.height/12)
+        color: "#363636"
 
-    Label{
-        id: label
-        text: "A Label text"
-        y:  200
+        Label {
+            id: time
+            text: getCurrentTime()
+            color: "white"
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.verticalCenter: parent.verticalCenter
+            font.pixelSize: 30
+
+            function getCurrentTime(){
+                var date = new Date()
+                return date.toLocaleTimeString(Qt.locale(), "hh:mm")
+            }
+        }
+    }
+
+    Rectangle { //make its own file so it can be a component and I can just paste them in automatically using a list or smh
+        id: exampleapp
+        width: 250
+        height: 250
+        color: "blue"
+        anchors.verticalCenter: parent.verticalCenter
         anchors.horizontalCenter: parent.horizontalCenter
+
+        Image {
+            width: parent.width
+            height: parent.height
+            //fillMode: Image.PreserveAspectFit
+            source: "qt.png"
+        }
+
+        MouseArea {
+            anchors.fill: parent
+            onClicked: {
+                console.log("example app clicked!")
+            }
+        }
+
+        Label {
+            id: appName
+            text: "Example app"
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.top: parent.bottom
+            anchors.topMargin: 15
+            font.pixelSize: 36
+        }
     }
 
-    Button{
-      id:   button1      // Unique identifier in QT
-      text: "Click me"
-      anchors.verticalCenterOffset: 29
-      anchors.horizontalCenterOffset: 0 // Button
-      //y:    400
-      anchors.horizontalCenter: parent.horizontalCenter
-      anchors.verticalCenter:   parent.verticalCenter
+    Timer {
+        interval: 500
+        running: true
+        repeat: true
 
-      onClicked: {
-          console.info("Button was clicked")
-          label.text = "Button was clicked => " + counter + " times "
-          counter += 1
-      }
+        onTriggered: {
+            time.text = time.getCurrentTime()
+        }
     }
-
 }
+
+//    // Variable counter
+//    property var counter: 0
+//    }
+//
+//    Label{
+//        id: label
+//        text: "A Label text"
+//        y:  200
+//        anchors.horizontalCenter: parent.horizontalCenter
+//    }
+//
+//    Dial{
+//        id: dial
+//        anchors.horizontalCenter: parent.horizontalCenter
+//        wrap: false
+//    }
+//
+//    Button{
+//      id:   button1      // Unique identifier in QT
+//      text: "Click me"
+//      anchors.verticalCenterOffset: 29
+//      anchors.horizontalCenterOffset: 0 // Button
+//      //y:    400
+//      anchors.horizontalCenter: parent.horizontalCenter
+//      anchors.verticalCenter:   parent.verticalCenter
+//
+//      onClicked: {
+//          console.info("Button was clicked")
+//          counter += 1
+//          dial.position = counter/10
+//      }
+

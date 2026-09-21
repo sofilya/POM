@@ -77,6 +77,7 @@ hello-world_autogen/timestamp: CMakeFiles/hello-world.dir/compiler_depend.ts
 
 hello-world_autogen/EWIEGA46WW/qrc_qml.cpp: /home/jakub/Documents/stuff/programovani/POM/software/apps/example/qml.qrc
 hello-world_autogen/EWIEGA46WW/qrc_qml.cpp: CMakeFiles/hello-world_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json
+hello-world_autogen/EWIEGA46WW/qrc_qml.cpp: /home/jakub/Documents/stuff/programovani/POM/software/apps/example/qt.png
 hello-world_autogen/EWIEGA46WW/qrc_qml.cpp: /home/jakub/Documents/stuff/programovani/POM/software/apps/example/main.qml
 hello-world_autogen/EWIEGA46WW/qrc_qml.cpp: /usr/lib/qt6/libexec/rcc
 hello-world_autogen/EWIEGA46WW/qrc_qml.cpp: /usr/lib/qt6/libexec/rcc
