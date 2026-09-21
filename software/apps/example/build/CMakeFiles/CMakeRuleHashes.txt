@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+b027a464d1ffaf6435986f45014874f7 CMakeFiles/hello-world_autogen
+fb9ca91fe64b8cdcc6076c5179ba9666 hello-world_autogen/EWIEGA46WW/qrc_qml.cpp
+41bcd6f19d5c337af4b9f0e58c7a3a8f hello-world_autogen/timestamp

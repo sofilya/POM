@@ -1,1 +1,2 @@
-obj-m += example.o
+example:
+   obj-m += example.o

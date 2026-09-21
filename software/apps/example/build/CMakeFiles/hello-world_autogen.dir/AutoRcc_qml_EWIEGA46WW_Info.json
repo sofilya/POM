@@ -1,0 +1,25 @@
+{
+	"BUILD_DIR" : "/home/jakub/Documents/stuff/programovani/POM/software/apps/example/build/hello-world_autogen",
+	"CMAKE_BINARY_DIR" : "/home/jakub/Documents/stuff/programovani/POM/software/apps/example/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/jakub/Documents/stuff/programovani/POM/software/apps/example/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jakub/Documents/stuff/programovani/POM/software/apps/example",
+	"CMAKE_SOURCE_DIR" : "/home/jakub/Documents/stuff/programovani/POM/software/apps/example",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/jakub/Documents/stuff/programovani/POM/software/apps/example/build/hello-world_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/jakub/Documents/stuff/programovani/POM/software/apps/example/main.qml"
+	],
+	"LOCK_FILE" : "/home/jakub/Documents/stuff/programovani/POM/software/apps/example/build/CMakeFiles/hello-world_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/jakub/Documents/stuff/programovani/POM/software/apps/example/build/CMakeFiles/hello-world_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/jakub/Documents/stuff/programovani/POM/software/apps/example/qml.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
