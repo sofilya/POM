@@ -1,0 +1,5 @@
+/home/jakub/Documents/stuff/programovani/POM/software/apps/applications/example/build/CMakeFiles/launcher.dir
+/home/jakub/Documents/stuff/programovani/POM/software/apps/applications/example/build/CMakeFiles/edit_cache.dir
+/home/jakub/Documents/stuff/programovani/POM/software/apps/applications/example/build/CMakeFiles/rebuild_cache.dir
+/home/jakub/Documents/stuff/programovani/POM/software/apps/applications/example/build/CMakeFiles/launcher_autogen_timestamp_deps.dir
+/home/jakub/Documents/stuff/programovani/POM/software/apps/applications/example/build/CMakeFiles/launcher_autogen.dir

@@ -1,5 +1,0 @@
-/home/jakub/Documents/stuff/programovani/POM/software/apps/example/build/CMakeFiles/hello-world.dir
-/home/jakub/Documents/stuff/programovani/POM/software/apps/example/build/CMakeFiles/edit_cache.dir
-/home/jakub/Documents/stuff/programovani/POM/software/apps/example/build/CMakeFiles/rebuild_cache.dir
-/home/jakub/Documents/stuff/programovani/POM/software/apps/example/build/CMakeFiles/hello-world_autogen_timestamp_deps.dir
-/home/jakub/Documents/stuff/programovani/POM/software/apps/example/build/CMakeFiles/hello-world_autogen.dir
