@@ -33,7 +33,7 @@ ApplicationWindow {
         }
     }
 
-    App { //whenever you use App{} you only have to specify what is new, rest is copied from App.qml
+    Label { //whenever you use App{} you only have to specify what is new, rest is copied from App.qml
         id: exampleapp
         width: 250
         height: 250
@@ -75,36 +75,4 @@ ApplicationWindow {
         }
     }
 }
-
-//    // Variable counter
-//    property var counter: 0
-//    }
-//
-//    Label{
-//        id: label
-//        text: "A Label text"
-//        y:  200
-//        anchors.horizontalCenter: parent.horizontalCenter
-//    }
-//
-//    Dial{
-//        id: dial
-//        anchors.horizontalCenter: parent.horizontalCenter
-//        wrap: false
-//    }
-//
-//    Button{
-//      id:   button1      // Unique identifier in QT
-//      text: "Click me"
-//      anchors.verticalCenterOffset: 29
-//      anchors.horizontalCenterOffset: 0 // Button
-//      //y:    400
-//      anchors.horizontalCenter: parent.horizontalCenter
-//      anchors.verticalCenter:   parent.verticalCenter
-//
-//      onClicked: {
-//          console.info("Button was clicked")
-//          counter += 1
-//          dial.position = counter/10
-//      }
 
